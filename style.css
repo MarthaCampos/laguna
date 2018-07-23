@@ -282,18 +282,76 @@ button{
 
 .levamos{
     background-color: #FFFFFF;
+    display: flex;
+}
+.levamos div:first-child{
+    flex-direction: column;
+}
+.levamos img{
+    width: 40%;
+    height: 30%;
+}
+.levamos h3,p{
+    text-align: center;
+    padding: 0 10rem;
 }
 .viagens{
-
+    display: flex;
+}
+.viagens div:first-child{
+    flex-direction: column;
+}
+.viagens img{
+    width: 40%;
+    height: 30%;
+}
+.viagens h3,p{
+    text-align: center;
+    padding: 0 10rem;
 }
 .acompanhamento{
     background-color: #FFFFFF;
+    display: flex;
+}
+.acompanhamento div:first-child{
+    flex-direction: column;
+}
+.acompanhamento img{
+    width: 40%;
+    height: 30%;
+}
+.acompanhamento h3,p{
+    text-align: center;
+    padding: 0 10rem;
 }
 .seguranca{
-
+    display: flex;
+}
+.seguranca div:first-child{
+    flex-direction: column;
+}
+.seguranca img{
+    width: 40%;
+    height: 30%;
+}
+.seguranca h3,p{
+    text-align: center;
+    padding: 0 10rem;
 }
 .know{
     background-color: #FFFFFF;
+    display: flex;
+}
+.know div:first-child{
+    flex-direction: column;
+}
+.know img{
+    width: 40%;
+    height: 30%;
+}
+.know h3,p{
+    text-align: center;
+    padding: 0 10rem;
 }
 
 
