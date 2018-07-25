@@ -50,6 +50,8 @@ button{
     background-color: #009CDE;
 }
 
+
+
 /* MENU MOBILE */
 
 @media (max-width: 991.98px){
@@ -310,6 +312,7 @@ button{
 .levamos p{
     text-align: left;
 }
+
 .viagens{
     display: flex;
 }
@@ -323,7 +326,10 @@ button{
 .viagens div:first-child{
     flex-direction: column;
 }
-.viagens img{
+.viagens img:first-child{
+    display: none;
+}
+.viagens img:last-child{
     width: 40%;
     height: 30%;
 }
@@ -340,6 +346,8 @@ button{
 .viagens p{
     text-align: left;
 }
+
+
 .acompanhamento{
     background-color: #FFFFFF;
     display: flex;
@@ -384,7 +392,10 @@ button{
 .seguranca div:first-child{
     flex-direction: column;
 }
-.seguranca img{
+.seguranca img:first-child{
+    display: none;
+}
+.seguranca img:last-child{
     width: 40%;
     height: 30%;
 }
@@ -433,6 +444,146 @@ button{
     text-align: left;
 }
 
+/* INFORMAÇÕES MOBILE */
+
+@media (max-width: 991.98px){
+    .levamos{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .levamos img{
+        width: 100%;
+    }
+    .levamos div{
+        width: 100%;
+    }
+    .levamos h3,p{
+        text-align: center;
+        padding: 0;
+    }
+    .levamos p{
+        text-align: center;
+    }
+    .levamos div img{
+        width: 150px;
+        height: 1px;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+
+    .viagens{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .viagens img:last-child{
+        width: 100%;
+        display: none;
+    }
+    .viagens img:first-child{
+        width: 100%;
+        display: initial;
+    }
+    .viagens div{
+        width: 100%;
+    }
+    .viagens h3,p{
+        text-align: center;
+        padding: 0;
+    }
+    .viagens p{
+        text-align: center;
+    }
+    .viagens div img{
+        width: 150px;
+        height: 1px;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+
+    .acompanhamento{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .acompanhamento img{
+        width: 100%;
+    }
+    .acompanhamento div{
+        width: 100%;
+    }
+    .acompanhamento h3,p{
+        text-align: center;
+        padding: 0;
+    }
+    .acompanhamento p{
+        text-align: center;
+    }
+    .acompanhamento div img{
+        width: 150px;
+        height: 1px;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .seguranca{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .seguranca img:last-child{
+        width: 100%;
+        display: none;
+    }
+    .seguranca img:first-child{
+        width: 100%;
+        display: initial;
+    }
+    .seguranca div{
+        width: 100%;
+    }
+    .seguranca h3,p{
+        text-align: center;
+        padding: 0;
+    }
+    .seguranca p{
+        text-align: center;
+    }
+    .seguranca div img{
+        width: 150px;
+        height: 1px;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .know{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .know img{
+        width: 100%;
+    }
+    .know div{
+        width: 100%;
+    }
+    .know h3,p{
+        text-align: center;
+        padding: 0;
+    }
+    .know p{
+        text-align: center;
+    }
+    .know div img{
+        width: 150px;
+        height: 1px;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+}
 
 /* FOTOS */
 
@@ -479,24 +630,3 @@ button{
 
 
 /* RODAPÉ */
-
-.rodape{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    background-color: #202835;
-    color: #FFFFFF;
-    padding: 1rem;
-}
-.rodape div:first-child{
-    width: 30%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.rodape div:nth-child(2){
-    width: 30%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
