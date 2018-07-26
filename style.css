@@ -44,12 +44,12 @@ p{
     color: #ADADAD;
     text-decoration: none;
     font-size: 12px;
-    padding: 1rem;
+    padding: 0.3rem;
 }
 
 .menu a:last-child{
     color: #FEFDFD;
-    border-radius: 5px;
+    border-radius: 3px;
     background-color: #009CDE;
 }
 
@@ -213,7 +213,7 @@ p{
 .banner h2{
     padding: 2rem;
     padding-bottom: 0;
-    font-weight: 900;
+    font-weight: 700;
     font-size: 40px;
     line-height: 55px;
 }
@@ -309,6 +309,7 @@ p{
 }
 .utilidades h3{
     font-size: 12px;
+    font-weight: 400;
     color: #ffffff;
 }
 
