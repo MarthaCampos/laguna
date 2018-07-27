@@ -557,8 +557,6 @@ p{
         padding-top: 1rem;
         padding-bottom: 1rem;
     }
-
-
     .acompanhamento{
         width: 100%;
         display: flex;
@@ -640,11 +638,94 @@ p{
     }
 }
 
+/* FAÇA UM ORÇAMENTO */
+
+.faca_orca{
+    background-color: #009CDE;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.faca_orca a{
+    color: #ffffff;
+    text-decoration: none;
+    border: 1px solid #ffffff;
+    padding: 0.5rem;
+}
+
+/* FAÇA UM ORÇAMENTO MOBILE */
+
+@media (max-width: 991.98px){
+.faca_orca a{
+    text-align: center;
+    font-size: 12px;
+}
+}
+
+/* NOSSA FROTA */
+
+.frota{
+    width: 100%;
+    margin: 0 auto;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+.second{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.second p{
+    text-align: start;
+    padding-top: 7rem;
+}
+.second img{
+    padding: 5rem;
+}
+img.frota_img {
+    width: 20%;
+    height: 0.5px;
+}
+
+/* NOSSA FROTA MOBILE */
+
+@media (max-width: 991.98px){
+    .frota, .first, .second{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .second img{
+        padding: 0;
+        width: 100%;
+        height: 30%;
+    }
+    .first img{
+        width: 150px;
+        height: 1px;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        
+    }
+    .second p{
+        text-align: center;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+    }
+}
+
 /* FOTOS */
 
 .fotos{
     width: 100%;
-    margin-bottom: 2rem;  
+    margin-bottom: 2rem;
+    background-color: #ffffff;  
 }
 .fotos h2{
     margin-top: 2rem;
